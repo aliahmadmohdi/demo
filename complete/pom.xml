@@ -42,7 +42,7 @@
     </dependencies>
 
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>1.7</java.version>
         <maven.build.timestamp.format>yyyyMMddHHmmssSSS</maven.build.timestamp.format>
     </properties>
 
@@ -61,7 +61,7 @@
                     <resourceGroup>maven-projects</resourceGroup>
                     <appName>${project.artifactId}-${maven.build.timestamp}</appName>
                     <region>westus</region>
-                    <javaVersion>1.8</javaVersion>
+                    <javaVersion>1.7</javaVersion>
                     <deploymentType>war</deploymentType>
                 </configuration>
             </plugin>
